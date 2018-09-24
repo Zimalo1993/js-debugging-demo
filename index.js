@@ -1,3 +1,10 @@
+function sub(a, b) {
+    let value1 = a;
+    let value2 = b;
+    let result = value1 - value2;
+    return result;
+}
+
 function sum(a, b) {
     let value1 = a;
     let value2 = b;
@@ -39,7 +46,7 @@ function arraySum(a, b)
     return result;
 }
 
-
+console.log("sub: " + sub(20, 10));
 console.log("sum: " + sum(30, 20));
 console.log("max: " + max(10, 13));
 console.log("factorial: " + factorial(3));
